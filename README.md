@@ -1,39 +1,40 @@
-# Forum powered by Python
+# Tech-News Python Forum
 
-**Title:** Set up app to render templates
+[Deployed Application](https://technews-python.herokuapp.com/)
 
-**User Stories**
+Tech-News is a website that allows users to share links to their favorite tech resources, upvote their favorite links, and comment on other people's links. Originally, this website utilized node.js for backend development, but was refactored to utilize Python and Flask instead.
 
-* As a user, I want to be able to view the home and dashboard pages in the browser
+# Inner-Workings of the Website
 
-**Title:** Set up database and models
+This website was created by ultizing the following technologies: 
+* Python
+* Javascript 
+* MySQL
+* SQLAlchemy
+* Gunicorn
+* Jinja2
+* Bcrypt
 
-**User Stories**
+# Future Developments
+The following are ideas for future changes for the website: 
+* Allowing for searchability for posts/topics
+* Organizing links into categories 
+* Changing from MySQL to Postgresql
+* Profile pictures for users
+* Utilizing frontend framework, such as AngularJS
 
-* As a user, I need a database that can store my account, posts, comments, or upvotes
+# User Stories
 
-**Title:** Finalize homepage views with data and filters
+**As a user, I want to be able to view the home and dashboard pages in the browser**
 
-**User Stories**
-
-* As a user, I want to be able to see my posts on the homepage
-
-* I expect to see dates, URLs, and plural words properly formatted
-
-**Title:** Implement user logins and sessions
-
-**User Stories**
-
-* As a user, I want to be able to log in and have my session remembered if I refresh the page
-
-**Title:** Build and safeguard remaining routes
-
-**User Stories**
-
-* As a logged-in user, I want to be able to create new posts and comments and upvote other posts
-
-**Title:** Deploy the app
-
-**User Stories**
-
-* As a user, I want to be able to visit the app on a public URL
+* Set up database and models
+  * As a user, I need a database that can store my account, posts, comments, or upvotes
+* Finalize homepage views with data and filters
+  * As a user, I want to be able to see my posts on the homepage
+  * I expect to see dates, URLs, and plural words properly formatted
+* Implement user logins and sessions
+  * As a user, I want to be able to log in and have my session remembered if I refresh the page
+* Build and safeguard remaining routes
+  * As a logged-in user, I want to be able to create new posts and comments and upvote other posts
+* Deploy the app
+  * As a user, I want to be able to visit the app on a public URL
