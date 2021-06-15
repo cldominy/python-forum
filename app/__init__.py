@@ -14,10 +14,6 @@ def create_app(test_config=None):
   app.jinja_env.filters['format_date'] = filters.format_date
   app.jinja_env.filters['format_plural'] = filters.format_plural
 
-  @app.route('/hello')
-  def hello():
-    return 'hello world'
-
 # register routes
   app.register_blueprint(home)
   app.register_blueprint(dashboard)
